@@ -1,4 +1,4 @@
-class Bird {
+/**class Bird {
     name: string;
     canFly: boolean;
     hasFeathers: boolean = true;

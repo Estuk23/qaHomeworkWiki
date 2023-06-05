@@ -1,4 +1,6 @@
-class Animal {
+/**
+
+class Animall {
     name: string;
     sound: string;
     food: string;
@@ -18,7 +20,7 @@ class Animal {
    * @param {string} food - as expected
    * @param {string} saltwater - true if the fish is a saltwater fish
    */
-  class Fish extends Animal {
+ /*  class Fishh extends Animal {
     saltwater: boolean;
     // As required, has the name, food, and saltwater parameters
     constructor(name: string, food: string, saltwater: boolean) {
@@ -47,7 +49,7 @@ class Animal {
    * @param {string} food - as expected
    * @param {number} flightSpeed - the flight speed of the bird, in meters/second. This should be 0 for flightless birds.
    */
-  class Bird extends Animal {
+  /*class Birdd extends Animal {
     flightSpeed: number;
     // this constructor takes one more parameter than Animal, flightSpeed
     constructor(name: string, sound: string, food: string, flightSpeed: number) {
@@ -92,7 +94,7 @@ class Animal {
         expect(shark.habitat()).toBe("The shark is a saltwater fish.");
       });
     });
-    describe("Birds", () => {
+    describe("Birdds", () => {
       // Bird should actually take four arguments
       let swallow = new Bird("swallow", "chattering chirp", "insects", 11);
       let emu = new Bird("emu", "grunt", "plants and insects", 0);
@@ -115,3 +117,5 @@ class Animal {
       });
     });
   });
+
+  */
