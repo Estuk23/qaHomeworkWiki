@@ -1,4 +1,4 @@
-import {Google} from './basePageHW'
+import {Google} from './basePageHomework'
 import { Driver } from 'selenium-webdriver/chrome'
 const fs = require('fs')
 const google = new Google()
